@@ -1,3 +1,3 @@
-## Readme Placeholder
+## Lab 2
 ### Arjav Rawal
-This readme serves as a placeholder to ensure each folder is uploaded.
+This lab focuses on loops, conditionals, and debugging. More info to come once more directions on lab are provided.
