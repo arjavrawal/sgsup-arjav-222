@@ -1,3 +1,3 @@
-## Lab Number
+## Classwork 4A
 ### Arjav Rawal
-This lab is setting up a coding environment using Python, Jupyter Notebooks, GitHub, VS Code, etc.
+This folder includes lectures notes on the intro to ArcPy, as well as the classwork deliverables and notebooks.
