@@ -1,3 +1,5 @@
 ## Lab 2
 ### Arjav Rawal
-This lab focuses on loops, conditionals, and debugging. More info to come once more directions on lab are provided.
+This project is a directory scanner that identifies and summarizes geospatial assets such as shapefiles, file geodatabases, and ArcGIS Pro projects. It’s built with an object-oriented structure that separates generic file crawling (DirectoryScanner) from GIS-specific logic (GeoScanner). Each type of asset is represented through Python dataclasses - File, Shapefile, FileGeodatabase, and APRX - which hold consistent metadata such as feature counts, fields, and layer sources. The program relies on recursive booleans to navigate folders and on ArcPy to gather dataset information (GetCount, ListFields, ListFeatureClasses, and ArcGISProject). Together, these tools create a clean pipeline for GIS data management.
+
+Reading through this code and running it clarified the power of object-oriented programming and loops in structuring complex workflows. Recursion keeps the logic compact, while dataclasses make the results readable and easy to manage. The biggest lessons came from ArcPy’s quirks - for example, needing to convert GetCount results and its finicky nature with managing the environment. Addressing other issues such as dataset loops and shapefile handling reinforced good debugging habits.
