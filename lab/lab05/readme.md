@@ -1,3 +1,3 @@
-## Lab Number
+## Lab 5
 ### Arjav Rawal
-This lab is setting up a coding environment using Python, Jupyter Notebooks, GitHub, VS Code, etc.
+This lab explores comprehensive data automation through ArcPy.
